@@ -35,8 +35,8 @@ const About = () => {
           </div>
         <div className=" text-white md:h-full w-full md:flex-1 flex justify-center items-center">
     <div className="px-8 md:px-16">
-        <h1 className="font-bold text-4xl md:text-6xl mb-6">Dare to Explore with Us</h1>
-        <p className="mb-4"><span className="font-bold text-2xl md:text-4xl">A Simply Perfect Place to Get Lost</span> </p>
+        <h1 className="font-bold text-4xl md:text-6xl mb-6">LET US BUILD YOURS DREAM</h1>
+        
         <p className="mb-6 leading-normal text-lg md:text-base">We are trusted by our clients and have a reputation for the best services in the field. </p>
         <p className="mb-6 leading-normal text-lg md:text-base">{AppConfig.about.description}<a href="#more" className="text-orange-800 text-md">Read More</a></p>
         <a href="#" className="block md:inline-block text-center no-underline bg-[#FCD900] transform transition hover:scale-105 duration-300 ease-in-out text-[#035397] uppercase text-lg tracking-widest font-heading px-4 py-4 items-end border-2 border-blue-900 hover:bg-blue-900 hover:text-blue-100">Explore</a>
