@@ -39,7 +39,7 @@ export default function Navbar() {
                   <img
                     className="block lg:hidden h-16 w-auto"
                     src=""
-                    alt="Workflow"
+                    alt="Adeymax"
                   />
                   <img
                     className="hidden lg:block h-16 w-auto"
