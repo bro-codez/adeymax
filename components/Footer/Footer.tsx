@@ -42,7 +42,7 @@ const Footer = () => (
             Contact us for consultations and further information.
           </p>
           <p className="p-2 mt-4">
-            &copy;2022 Port Florence Lake Tours.
+            &copy;2022 Adeymax Kenya.
           </p>
         </div>
       </div>
