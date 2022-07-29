@@ -22,10 +22,12 @@ export default function Navbar() {
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-transparent">
+          <div className="absolute max-w-screen mt-20 mr-0 px-10 ml-60 md:right-0 bg-red-800 text-white text-center transform rotate-90">UNDER CONSTRUCTION</div>
+
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-white text-lg font-extrabold hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -44,7 +46,7 @@ export default function Navbar() {
                   <img
                     className="hidden lg:block h-16 w-auto"
                     src=""
-                    alt="Workflow"
+                    alt="Adeymax"
                   />
                 </div>
                 <div className="hidden absolute right-20 sm:block sm:ml-6">
@@ -55,9 +57,9 @@ export default function Navbar() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? 'bg-blue-900 text-white'
-                            : 'text-gray-300 hover:bg-gray-700 hover:text-white ',
-                          'px-6 py-6 rounded-md text-md font-medium hover:border-4'
+                            ? 'bg-blue-900 text-white font-extrabold'
+                            : 'text-gray-300 hover:bg-gray-700 hover:text-white font-extrabold text-lg',
+                          'px-2 py-2 rounded-md text-lg hover:border-4 font-extrabold'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
