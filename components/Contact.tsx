@@ -35,10 +35,10 @@ const Contact = (props: IContactProps) => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4  bg-blur-xl">
           <div className="md:ml-4">
             <header className="">
-              <h1 className="text-gray-50 font-semibold text-2xl">
+              <h1 className="text-slate-900 font-semibold text-4xl">
                 Get in touch, let's talk.
               </h1>
-              <p className="font-light text-base text-gray-200 mt-2">
+              <p className="font-light text-base text-slate-900 text-2xl mt-2">
                 Fill in the details and I'll get back to you as soon as I can.
               </p>
             </header>
