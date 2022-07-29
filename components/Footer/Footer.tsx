@@ -39,8 +39,7 @@ const Footer = () => (
         <div className="section bg-blur-xl">
           <img src="/logo-white.svg" className="object-contain p-2 mt-4 w-28 h-28"/>
           <p className="advice p-2 mt-4 font-semibold">
-            Plan and book your perfect trip with expert advice, travel tips
-            destination information from us
+            Contact us for consultations and further information.
           </p>
           <p className="p-2 mt-4">
             &copy;2022 Port Florence Lake Tours.
