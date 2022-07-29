@@ -38,12 +38,12 @@ export default function Navbar() {
                 <div className="flex-shrink-0 flex items-center">
                   <img
                     className="block lg:hidden h-16 w-auto"
-                    src="/svgs/dark_main_logo_clear.svg"
+                    src=""
                     alt="Workflow"
                   />
                   <img
                     className="hidden lg:block h-16 w-auto"
-                    src="/svgs/dark_main_logo_clear.svg"
+                    src=""
                     alt="Workflow"
                   />
                 </div>
