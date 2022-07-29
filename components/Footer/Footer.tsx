@@ -33,7 +33,7 @@ const socialLinks = [
 
 const Footer = () => (
   <Section>
-  <footer className="gradient  bg-no-repeat bg-fill w-full mx-auto text-white text-opacity-120 font-semibold uppercase text-sm tracking-widest relative -z-1000">
+  <footer className="bg-slate-700 w-full mx-auto text-white text-opacity-120 font-semibold uppercase text-sm tracking-widest relative -z-1000">
     <div className="flex max-w-7xl  bg-local mx-auto">
       <div className="wrapper w-1/2 pl-12">
         <div className="section bg-blur-xl">

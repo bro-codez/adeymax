@@ -18,14 +18,14 @@ function classNames(...classes:any) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="mr-0 sticky top-0  gradient z-50 h-24 py-2">
+    <Disclosure as="nav" className="mr-0 sticky top-0 bg-slate-800 z-50 h-24 py-2">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-transparent">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -70,7 +70,7 @@ export default function Navbar() {
             {/*  <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button
                   type="button"
-                  className="bg-gray-800 p-1 rounded-sm  text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                  className="bg-gray-800 p-1 rounded-sm  text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 >
                   <span className="sr-only">View notifications</span>
                   <LoginIcon className="h-6 w-4" aria-hidden="true" />
