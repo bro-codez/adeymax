@@ -22,6 +22,10 @@ export default function Navbar() {
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-transparent">
+          <div className="absolute max-w-screen mt-20 mr-0 px-10 ml-60 md:right-0 bg-red-800 text-white text-center transform rotate-15">UNDER CONSTRUCTION</div>
+          <div className=" max-w-screen mt-20 mr-0 px-10 ml-60 md:right-0 bg-red-800 text-white text-center transform rotate-30">UNDER CONSTRUCTION</div>
+          <div className=" max-w-screen mt-20 mr-0 px-10 ml-60 md:right-0 bg-red-800 text-white text-center transform rotate-45">UNDER CONSTRUCTION</div>
+          <div className=" max-w-screen mt-20 mr-0 px-10 ml-60 md:right-0 bg-red-800 text-white text-center transform rotate-60">UNDER CONSTRUCTION</div>
           <div className="absolute max-w-screen mt-20 mr-0 px-10 ml-60 md:right-0 bg-red-800 text-white text-center transform rotate-90">UNDER CONSTRUCTION</div>
 
             <div className="relative flex items-center justify-between h-16">
