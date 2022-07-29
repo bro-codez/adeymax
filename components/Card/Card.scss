@@ -1,0 +1,91 @@
+@import "../../constants/colors.scss";
+
+.card {
+  margin: 60px 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .icon {
+    position: absolute;
+    z-index: -1;
+
+    @media (max-width: 820px) {
+      display: none;
+    }
+  }
+
+  .plus-1 {
+    bottom: 20px;
+    left: 15px;
+  }
+
+  .plus-2 {
+    top: 90px;
+    left: 40%;
+  }
+
+  .plus-3 {
+    top: 60px;
+    right: 30%;
+  }
+
+  .plus-4 {
+    bottom: 50px;
+    right: 80px;
+  }
+
+  .circle-1 {
+    bottom: 120px;
+    left: 190px;
+  }
+
+  .circle-2 {
+    bottom: 100px;
+    right: 45%;
+  }
+
+  .content {
+    width: 50%;
+
+    @media (max-width: 720px) {
+      width: 60%;
+    }
+
+    @media (max-width: 600px) {
+      width: 95%;
+    }
+
+    .label {
+      font-size: 20px;
+      font-family: PoppinsBold;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: $grey;
+      margin: 10px 0 20px 0;
+      width: 70%;
+      line-height: 20px;
+
+      @media (max-width: 900px) {
+        width: 75%;
+      }
+    }
+  }
+
+  img {
+    width: 45%;
+    height: fit-content;
+    object-fit: contain;
+    margin-right: auto;
+
+    @media (max-width: 720px) {
+      width: 35%;
+    }
+
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+}

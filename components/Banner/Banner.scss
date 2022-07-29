@@ -1,0 +1,92 @@
+@import "../../constants/colors.scss";
+
+.banner {
+  display: flex;
+  align-items: center;
+
+  .content {
+    width: 50%;
+    position: relative;
+
+    .circle-1 {
+      position: absolute;
+      top: 50%;
+      left: -60px;
+      z-index: -1;
+    }
+
+    .circle-2 {
+      position: absolute;
+      bottom: -20px;
+      right: 40px;
+      z-index: -1;
+    }
+
+    .plus {
+      position: absolute;
+      top: 0%;
+      right: 10%;
+      z-index: -1;
+    }
+
+    @media (max-width: 720px) {
+      width: 100%;
+      padding-left: 10px;
+    }
+
+    .label {
+      font-size: 36px;
+      color: $purple;
+      font-family: PoppinsBold;
+      margin: 40px 0 80px 0;
+
+      @media (max-width: 720px) {
+        margin: 40px 0;
+      }
+    }
+
+    .subtitle {
+      color: $purple;
+      font-size: 16px;
+    }
+
+    .select-inputs {
+      .row {
+        display: flex;
+        margin: 25px 0;
+
+        select {
+          width: 160px;
+          height: 44px;
+          border-radius: 8px;
+          padding: 0 10px;
+          cursor: pointer;
+          margin-right: 20px;
+          font-size: 16px;
+          border: 1px solid grey;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+
+    .line {
+      width: 25px;
+      height: 2px;
+      background-color: $purple;
+      margin: 15px 0;
+    }
+  }
+
+  img {
+    width: 45%;
+    height: auto;
+    object-fit: contain;
+
+    @media (max-width: 720px) {
+      display: none;
+    }
+  }
+}
