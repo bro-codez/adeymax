@@ -1,50 +1,31 @@
-import Image from 'next/image';
-import { Section} from '../layout/Section'
-
-import { Circle, Plus } from '../../svgs';
-
-const locations = ['Ndere Island', 'Impala Sanctuary', 'Hippo Point', 'Dunga Bay','Kit Mikayi'];
-const activities = ['Wildlife', 'Sight-seeing'];
-const grades = ['Grade 1', 'Grade 2', 'Grade 3'];
-const regions = ['Region 1', 'Region 2', 'Region 3'];
-
-const Banner = () => (
-  <Section>
-    
-    
-    <div className="relative bg-white border-4 rounded-lg w/12 mx-6 -mt-20">
-      <div className="flex flex-col mx-auto md:flex-row mt-6">
-
-      <fieldset className="h-full w-full md:w-1/4 mb-4">
-      <label className="block text-md text-gray-900 mb-2">Where to</label>
-		  <input id="destination" type="text" className="block w-11/12 rounded-sm  bg-white py-2 px-3 text-xl" name="destination" placeholder="Enter key-words" />
-      </fieldset>
-      
-      <fieldset className="w-full md:w-1/4 mb-4">
-      <label className="block text-sm text-gray-900 mb-2">When</label>
-		  <input id="date" type="date" className="block w-11/12 rounded-sm  bg-white py-2 px-3 text-xl" name="date" />
-      </fieldset>
-         
-      <fieldset className="w-full md:w-1/4 mb-4">
-      <label className="block text-sm text-gray-900 mb-2">Type</label>
-      <select className="block w-11/12 rounded-sm bg-white py-2 px-3 text-xl">
-      <option>Adventure</option>
-      {activities.map((activity, index) => (
-       <option value={activity} key={index}>
-                {activity}
-              </option>
-            ))}
-          </select>
-      </fieldset>
-      <button className="inline-block w-full md:w-1/4  bg-[#0FCD900] text-white uppercase text-sm tracking-widest font-heading px-8 py-4">Explore</button>
-    
+/* This example requires Tailwind CSS v2.0+ */
+export default function Banner() {
+  return (
+    <div className="bg-gray-50">
+      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <span className="block">Ready to start building?</span>
+          <span className="block text-indigo-600">Book an appointment now.</span>
+        </h2>
+        <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+          <div className="inline-flex rounded-md shadow">
+            <a
+              href="#"
+              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+            >
+              Get started
+            </a>
+          </div>
+          <div className="ml-3 inline-flex rounded-md shadow">
+            <a
+              href="#"
+              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50"
+            >
+              PROJECTS
+            </a>
+          </div>
         </div>
-
-      
-    
-    
-  </div>
-  </Section>
-);
-
-export default Banner;
+      </div>
+    </div>
+  )
+}
