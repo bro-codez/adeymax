@@ -27,12 +27,14 @@ const Home: NextPage = () => {
       <Hero />
       <Featured /> 
       <Banner />
+      
       <Card2 
           title="Plan your epic tour with us"
           image="/hero/worker.jpg"
           subtitle={''}
           buttonLabel={'hi'}      
       />
+      <Testimonials />
       <CTAMail />
       <Footer />
      </div>
