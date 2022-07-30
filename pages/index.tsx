@@ -17,6 +17,7 @@ import  Featured  from '../components/Featured';
 
 import { PeopleReview } from '../components/Review';
 import Card2 from '../components/Card/Card2';
+import CTAMail from '../components/CTAMail';
 
 const Home: NextPage = () => {
   return(
@@ -32,6 +33,7 @@ const Home: NextPage = () => {
           subtitle={''}
           buttonLabel={'hi'}      
       />
+      <CTAMail />
       <Footer />
      </div>
   </>

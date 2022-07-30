@@ -1,9 +1,9 @@
 /* This example requires Tailwind CSS v2.0+ */
 export default function Banner() {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-indigo-800 bg-[(/hero/heros (1).jpg)] ">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
           <span className="block">Ready to start building?</span>
           <span className="block text-indigo-600">Book an appointment now.</span>
         </h2>

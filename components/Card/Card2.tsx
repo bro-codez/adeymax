@@ -7,9 +7,9 @@ import Feature from '/svgs/feature.svg'
 import { Plus, Circle } from '../../svgs';
 
 interface CardProps {
-  title: string;
-  subtitle: string;
-  image: string;
+  title?: string;
+  subtitle?: string;
+  image?: string;
   buttonLabel: string;
   reversed?: boolean;
   children?: ReactNode;
@@ -50,8 +50,29 @@ const Card2 = ({ title, subtitle, image, children, buttonLabel, reversed }: Card
     title="About Us"
     description="We promise the best"
     >
+      <div className="lg:text-center">
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-indigo-900 sm:text-4xl">
+          OUR SERVICES
+          </p>
+          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
+            accusamus quisquam.
+          </p>
+        </div>
     <div
-      className="bg-white flex max-w-7xl mx-auto">
+      className="bg-white flex flex-wrap max-w-7xl mx-auto">
+        
+
+        <div className="lg:block">
+      <Image
+    width={600}
+    height={600} 
+    className="h-full w-full object-cover "
+    src={image} alt={title} />
+    {children}
+    </div>
+
+
 
 <div className="w-1/2 h-full lg:grid grid-cols-2 gap-4 grid-rows-1  mx-auto mt-24 mb-4  ">
 {dataReview.map((item, _key) => (
@@ -74,16 +95,7 @@ const Card2 = ({ title, subtitle, image, children, buttonLabel, reversed }: Card
       
           ))}
       </div>
-      <div className="lg:block">
-      <Image
-    width={600}
-    height={600} 
-    className="h-full w-full object-cover "
-    src={image} alt={title} />
-    {children}
-    </div>
-
-
+     
     </div>
     </Section>
   );
