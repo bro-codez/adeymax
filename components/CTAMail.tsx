@@ -22,7 +22,15 @@ const CTAMail = () => {
     title="About Us"
     description="We promise the best"
     >
-            <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 py-24">
+    <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 py-24">
+    <div className="lg:px-32 lg:py-32 flex items-center justify-center">
+            <div>
+                <h2 className="text-5xl mb-6 font-bold uppercase italic">Contractors you can trust</h2>
+                <p className="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="/about" className="mt-8 inline-block rounded-lg border-2 border-indigo-900 text-lg px-8 py-3 hover:bg-black hover:text-white">Our Promise</a>
+            </div>
+        </div>
+        
         <div className="hidden lg:grid relative grid-cols-2">
             <div className="pt-24">
                 <div className="relative w-full h-full">
@@ -33,13 +41,7 @@ const CTAMail = () => {
                 <img src="https://images.unsplash.com/photo-1535732759880-bbd5c7265e3f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" className="absolute inset-0 w-full h-full object-cover -ml-12" />
             </div>
         </div>
-        <div className="lg:px-32 lg:py-32 flex items-center justify-center">
-            <div>
-                <h2 className="text-5xl mb-6 font-bold uppercase italic">Contractors you can trust</h2>
-                <p className="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="/about" className="mt-8 inline-block rounded-lg border-2 border-indigo-900 text-lg px-8 py-3 hover:bg-black hover:text-white">Our Promise</a>
-            </div>
-        </div>
+        
     </div>
     <div className="bg-indigo-800 text-white text-center p-12">
         <div className="text-2xl">Join the club</div>
