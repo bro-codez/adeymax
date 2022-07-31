@@ -39,7 +39,7 @@ const Contact = (props: IContactProps) => {
                 Get in touch, let's talk.
               </h1>
               <p className="font-light text-base text-slate-900 text-2xl mt-2">
-                Fill in the details and I'll get back to you as soon as I can.
+                Fill in the details and I'll get back to you as soon as we can.
               </p>
             </header>
             <div className="icons-container inline-flex flex-col my-20">

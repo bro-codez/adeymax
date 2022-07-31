@@ -22,7 +22,7 @@ import CTAMail from '../components/CTAMail';
 const Home: NextPage = () => {
   return(
   <>
-    <div className=" ">
+    <div className="bg-[url('/hero/heros (8).jpg')]">
       <Navbar />
       <Hero />
       <Featured /> 
@@ -36,6 +36,7 @@ const Home: NextPage = () => {
       />
       <Testimonials />
       <CTAMail />
+      <Trending />
       <Footer />
      </div>
   </>
