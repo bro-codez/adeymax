@@ -41,7 +41,7 @@ const Trending = () => (
       <div className="w-full md:w-1/2 xl:w-1/4 p-3">
         <a className="group" href="#">
           <div className="group flex flex-col justify-end h-full relative overflow-hidden rounded-10">
-            <img className="mx-auto w-full transform group-hover:scale-110 transition ease-out duration-500" src="gradia-assets/images/blog/blog1.png" alt=""/>
+            <img className="mx-auto w-full transform group-hover:scale-110 transition ease-out duration-500" src="/hero/heros (7).jpg" alt=""/>
             <div className="absolute bottom-0 left-0 w-full p-2.5">
               <div className="p-5 w-full bg-black bg-opacity-80 rounded-md">
                 <h2 className="mb-2 font-heading font-medium text-xs uppercase text-gray-400 tracking-px">Technology . 4 min read</h2>
@@ -54,7 +54,7 @@ const Trending = () => (
       <div className="w-full md:w-1/2 xl:w-1/4 p-3">
         <a className="group" href="#">
           <div className="group flex flex-col justify-end h-full relative overflow-hidden rounded-10">
-            <img className="mx-auto w-full transform group-hover:scale-110 transition ease-out duration-500" src="gradia-assets/images/blog/blog2.png" alt=""/>
+            <img className="mx-auto w-full transform group-hover:scale-110 transition ease-out duration-500" src="/hero/heros (7).jpg" alt=""/>
             <div className="absolute bottom-0 left-0 w-full p-2.5">
               <div className="p-5 w-full bg-black bg-opacity-80 rounded-md">
                 <h2 className="mb-2 font-heading font-medium text-xs uppercase text-gray-400 tracking-px">Technology . 4 min read</h2>
@@ -67,7 +67,7 @@ const Trending = () => (
       <div className="w-full md:w-1/2 xl:w-1/4 p-3">
         <a className="group" href="#">
           <div className="group flex flex-col justify-end h-full relative overflow-hidden rounded-10">
-            <img className="mx-auto w-full transform group-hover:scale-110 transition ease-out duration-500" src="gradia-assets/images/blog/blog3.png" alt=""/>
+            <img className="mx-auto w-full transform group-hover:scale-110 transition ease-out duration-500" src="/hero/heros (7).jpg" alt=""/>
             <div className="absolute bottom-0 left-0 w-full p-2.5">
               <div className="p-5 w-full bg-black bg-opacity-80 rounded-md">
                 <h2 className="mb-2 font-heading font-medium text-xs uppercase text-gray-400 tracking-px">Technology . 4 min read</h2>
@@ -80,7 +80,7 @@ const Trending = () => (
       <div className="w-full md:w-1/2 xl:w-1/4 p-3">
         <a className="group" href="#">
           <div className="group flex flex-col justify-end h-full relative overflow-hidden rounded-10">
-            <img className="mx-auto w-full transform group-hover:scale-110 transition ease-out duration-500" src="gradia-assets/images/blog/blog4.png" alt=""/>
+            <img className="mx-auto w-full transform group-hover:scale-110 transition ease-out duration-500" src="/hero/heros (7).jpg" alt=""/>
             <div className="absolute bottom-0 left-0 w-full p-2.5">
               <div className="p-5 w-full bg-black bg-opacity-80 rounded-md">
                 <h2 className="mb-2 font-heading font-medium text-xs uppercase text-gray-400 tracking-px">Technology . 4 min read</h2>
