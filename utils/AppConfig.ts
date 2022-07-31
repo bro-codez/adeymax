@@ -4,7 +4,7 @@ export const AppConfig = {
   description: 'Construction and Engineering company Nairobi, Kenya',
   locale: 'en',
   email: "info.adeymaxkenya.co.ke",
-  phone: "+254 720607010",
+  phone: "+254 723524539",
   address: "Marcus Garvey Road, Nairobi.",
 
 
