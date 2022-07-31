@@ -8,15 +8,19 @@ const About = () => {
     <>
     <Base>
     <Section>
-    <div className="w-full h-full bg-slate-800">
+    <div className="w-full h-full">
 
-<div className="w-full h-full relative flex items-center justify-center py-24">
+    <div className="w-full h-full ">
+
+<div className="w-full h-full relative flex items-center justify-left py-24">
 
   <img aria-label="no idea" src="/native/cleanlake.jpg" className="absolute object-cover w-full h-full"/>
 
   <div className="px-6 max-w-4xl relative z-10 text-center">
-    <h1 className="text-3xl md:text-4xl font-black text-[#02044A] leading-tight pl-0 mb-2">About Us</h1>
+    <h1 className="text-3xl md:text-4xl font-bold text-indigo-800 leading-tight mb-2">About us</h1>
   </div>
+
+</div>
 
 </div>
 
@@ -33,8 +37,8 @@ const About = () => {
           />
             
           </div>
-        <div className=" text-slate-900 md:h-full w-full md:flex-1 flex justify-center items-center">
-    <div className="px-8 md:px-16">
+        <div className=" text-slate-900 md:h-full w-full md:flex-1 flex justify-left items-left">
+    <div className=" md:px-16">
         <h1 className="font-bold text-slate-900 text-4xl md:text-6xl mb-6">LET US BUILD YOURS DREAM</h1>
         
         <p className="mb-6 leading-normal text-slate-900 text-lg md:text-base">We are trusted by our clients and have a reputation for the best services in the field. </p>

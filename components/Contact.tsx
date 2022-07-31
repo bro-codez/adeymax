@@ -17,12 +17,12 @@ const Contact = (props: IContactProps) => {
     >
     <div className="w-full h-full ">
 
-<div className="w-full h-full relative flex items-center justify-center py-24">
+<div className="w-full h-full relative flex items-center justify-left py-24">
 
   <img aria-label="no idea" src="/native/cleanlake.jpg" className="absolute object-cover w-full h-full"/>
 
   <div className="px-6 max-w-4xl relative z-10 text-center">
-    <h1 className="text-3xl md:text-4xl font-black text-[#02044A] leading-tight mb-2">Contact Us</h1>
+    <h1 className="text-3xl md:text-4xl font-bold text-indigo-800 leading-tight mb-2">Contact Us</h1>
   </div>
 
 </div>
@@ -31,14 +31,14 @@ const Contact = (props: IContactProps) => {
 
       
    
-   <div className="relative z-10 rounded-md shadow-md  p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
+   <div className="relative z-10 rounded-md shadow-md  p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4 bg-indigo-800">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4  bg-blur-xl">
           <div className="md:ml-4">
             <header className="">
               <h1 className="text-slate-900 font-semibold text-4xl">
                 Get in touch, let's talk.
               </h1>
-              <p className="font-light text-base text-slate-900 text-2xl mt-2">
+              <p className="font-light  text-slate-900 text-2xl mt-2">
                 Fill in the details and I'll get back to you as soon as we can.
               </p>
             </header>

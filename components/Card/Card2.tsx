@@ -67,7 +67,7 @@ const Card2 = ({ title, subtitle, image, children, buttonLabel, reversed }: Card
       <Image
     width={600}
     height={600} 
-    className="h-full w-full object-cover "
+    className="h-full w-full object-cover mx-auto "
     src={'/hero/worker.jpg'} />
     {children}
     </div>
